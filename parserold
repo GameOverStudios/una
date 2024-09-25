@@ -1,0 +1,83 @@
+import os
+import json
+from src.modules.php.traversers.bf import BFTraverser
+from src.modules.php.base import Visitor
+from src.modules.php.syntax_tree import build_syntax_tree
+
+class CustomVisitor(Visitor):
+    def __init__(self):
+        self.visited = []  # Lista para rastrear nós visitados
+        self.results = []  # Lista para armazenar os resultados
+
+    def visit(self, node):
+        if node in self.visited:
+            return  # Ignora nós já visitados
+        self.visited.append(node)
+
+        node_info = {
+            "type": type(node).__name__,
+            "attributes": {}
+        }
+
+        for attr_name in dir(node):
+            if not attr_name.startswith('_'):
+                attr_value = getattr(node, attr_name)
+                if isinstance(attr_value, list):
+                    node_info["attributes"][attr_name] = []
+                    for item in attr_value:
+                        if hasattr(item, 'accept'):
+                            item.accept(self)
+                            node_info["attributes"][attr_name].append(self.get_node_info(item))
+                        else:
+                            node_info["attributes"][attr_name].append(str(item))
+                elif hasattr(attr_value, 'accept'):
+                    attr_value.accept(self)
+                    node_info["attributes"][attr_name] = self.get_node_info(attr_value)
+                else:
+                    node_info["attributes"][attr_name] = str(attr_value)
+
+        self.results.append(node_info)
+
+    def get_node_info(self, node):
+        if node in self.visited:
+            return {"type": type(node).__name__, "id": id(node)}  # Retorna apenas o tipo e o ID para nós já visitados
+        else:
+            return self.results[-1]  # Retorna o último nó adicionado aos resultados
+
+def analyze_file(file_path):
+    """Analisa um único arquivo PHP e retorna a AST como um dicionário."""
+    try:
+        s_tree = build_syntax_tree(file_path)
+        visitor = CustomVisitor()
+        traverser = BFTraverser(s_tree)
+        traverser.register_visitor(visitor)
+        traverser.traverse()
+        
+        # Adiciona o path do arquivo ao JSON da AST
+        results = visitor.results
+        results.insert(0, {"file_path": file_path})  # Adiciona no início da lista
+        
+        return results
+    except Exception as e:
+        print(f"Erro ao analisar o arquivo {file_path}: {e}")
+        return None
+
+output_dir = "output"
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
+for root, _, files in os.walk("../"):
+    for file in files:
+        if file.endswith(".php"):
+            file_path = os.path.join(root, file)
+            ast = analyze_file(file_path)
+            if ast is not None:
+                relative_path = os.path.relpath(file_path, "../").replace(".php", ".json")
+                file_name = relative_path.replace(os.sep, "_") 
+                output_file_path = os.path.join(output_dir, file_name)
+
+                with open(output_file_path, "w") as f:
+                    json.dump(ast, f, indent=4)
+                    print(output_file_path)
+
+print(f"Resultados salvos em arquivos JSON no diretório '{output_dir}'.")

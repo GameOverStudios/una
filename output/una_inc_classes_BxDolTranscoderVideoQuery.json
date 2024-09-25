@@ -1,0 +1,3548 @@
+[
+    {
+        "file_path": "inc/classes/BxDolTranscoderVideoQuery.php"
+    },
+    {
+        "id": 1,
+        "type": "SyntaxTree",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "nodes"
+            ],
+            "file_location": "/workspaces/una/inc/classes",
+            "file_name": "BxDolTranscoderVideoQuery.php",
+            "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+            "generic": {},
+            "nearest_ns_parent": "None",
+            "nodes": [
+                {
+                    "id": 2,
+                    "type": "BinaryOp",
+                    "attributes": {
+                        "lineno": "1",
+                        "op": "or",
+                        "left": {
+                            "lineno": "1",
+                            "name": "defined",
+                            "params": [
+                                {
+                                    "id": 3,
+                                    "type": "Parameter",
+                                    "attributes": {
+                                        "lineno": "0",
+                                        "node": "BX_DOL",
+                                        "is_ref": "False"
+                                    }
+                                }
+                            ]
+                        },
+                        "right": {
+                            "lineno": "1",
+                            "expr": "hack attempt",
+                            "type": "die"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "type": "Class",
+                    "attributes": {
+                        "lineno": "13",
+                        "name": "BxDolTranscoderVideoQuery",
+                        "type": "None",
+                        "extends": "BxDolTranscoderQuery",
+                        "implements": [],
+                        "traits": [],
+                        "nodes": [
+                            {
+                                "id": 5,
+                                "type": "Method",
+                                "attributes": {
+                                    "lineno": "15",
+                                    "name": "__construct",
+                                    "modifiers": [
+                                        "public"
+                                    ],
+                                    "params": [
+                                        {
+                                            "id": 6,
+                                            "type": "FormalParameter",
+                                            "attributes": {
+                                                "lineno": "15",
+                                                "name": "$aObject",
+                                                "default_value": "None",
+                                                "is_ref": "False",
+                                                "type": "None"
+                                            }
+                                        }
+                                    ],
+                                    "nodes": [
+                                        {
+                                            "id": 7,
+                                            "type": "StaticMethodCall",
+                                            "attributes": {
+                                                "lineno": "17",
+                                                "class_": "parent",
+                                                "name": "__construct",
+                                                "params": [
+                                                    {
+                                                        "id": 8,
+                                                        "type": "Parameter",
+                                                        "attributes": {
+                                                            "lineno": "0",
+                                                            "node": {
+                                                                "lineno": "17",
+                                                                "name": "$aObject"
+                                                            },
+                                                            "is_ref": "False"
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": 9,
+                                                        "type": "Parameter",
+                                                        "attributes": {
+                                                            "lineno": "0",
+                                                            "node": {
+                                                                "lineno": "0",
+                                                                "name": "true"
+                                                            },
+                                                            "is_ref": "False"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": 10,
+                                            "type": "Assignment",
+                                            "attributes": {
+                                                "lineno": "18",
+                                                "node": {
+                                                    "lineno": "18",
+                                                    "node": {
+                                                        "lineno": "18",
+                                                        "name": "$this"
+                                                    },
+                                                    "name": "_sTableFiles"
+                                                },
+                                                "expr": "`sys_transcoder_videos_files`",
+                                                "is_ref": "False"
+                                            }
+                                        },
+                                        {
+                                            "id": 11,
+                                            "type": "Assignment",
+                                            "attributes": {
+                                                "lineno": "19",
+                                                "node": {
+                                                    "lineno": "19",
+                                                    "node": {
+                                                        "lineno": "19",
+                                                        "name": "$this"
+                                                    },
+                                                    "name": "_sHandlerPrefix"
+                                                },
+                                                "expr": "sys_video_transcoder_",
+                                                "is_ref": "False"
+                                            }
+                                        }
+                                    ],
+                                    "is_ref": "False"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "type": "BinaryOp",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "op",
+                "left",
+                "right"
+            ],
+            "generic": {},
+            "left": {
+                "lineno": "1",
+                "name": "defined",
+                "params": [
+                    {
+                        "id": 13,
+                        "type": "Parameter",
+                        "attributes": {
+                            "lineno": "0",
+                            "node": "BX_DOL",
+                            "is_ref": "False"
+                        }
+                    }
+                ]
+            },
+            "lineno": "1",
+            "nearest_ns_parent": {
+                "nodes": [
+                    {
+                        "id": 14,
+                        "type": "BinaryOp",
+                        "attributes": {
+                            "lineno": "1",
+                            "op": "or",
+                            "left": {
+                                "lineno": "1",
+                                "name": "defined",
+                                "params": [
+                                    {
+                                        "id": 15,
+                                        "type": "Parameter",
+                                        "attributes": {
+                                            "lineno": "0",
+                                            "node": "BX_DOL",
+                                            "is_ref": "False"
+                                        }
+                                    }
+                                ]
+                            },
+                            "right": {
+                                "lineno": "1",
+                                "expr": "hack attempt",
+                                "type": "die"
+                            },
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                        }
+                    },
+                    {
+                        "id": 16,
+                        "type": "Class",
+                        "attributes": {
+                            "lineno": "13",
+                            "name": "BxDolTranscoderVideoQuery",
+                            "type": "None",
+                            "extends": "BxDolTranscoderQuery",
+                            "implements": [],
+                            "traits": [],
+                            "nodes": [
+                                {
+                                    "id": 17,
+                                    "type": "Method",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "__construct",
+                                        "modifiers": [
+                                            "public"
+                                        ],
+                                        "params": [
+                                            {
+                                                "id": 18,
+                                                "type": "FormalParameter",
+                                                "attributes": {
+                                                    "lineno": "15",
+                                                    "name": "$aObject",
+                                                    "default_value": "None",
+                                                    "is_ref": "False",
+                                                    "type": "None"
+                                                }
+                                            }
+                                        ],
+                                        "nodes": [
+                                            {
+                                                "id": 19,
+                                                "type": "StaticMethodCall",
+                                                "attributes": {
+                                                    "lineno": "17",
+                                                    "class_": "parent",
+                                                    "name": "__construct",
+                                                    "params": [
+                                                        {
+                                                            "id": 20,
+                                                            "type": "Parameter",
+                                                            "attributes": {
+                                                                "lineno": "0",
+                                                                "node": {
+                                                                    "lineno": "17",
+                                                                    "name": "$aObject"
+                                                                },
+                                                                "is_ref": "False"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": 21,
+                                                            "type": "Parameter",
+                                                            "attributes": {
+                                                                "lineno": "0",
+                                                                "node": {
+                                                                    "lineno": "0",
+                                                                    "name": "true"
+                                                                },
+                                                                "is_ref": "False"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "id": 22,
+                                                "type": "Assignment",
+                                                "attributes": {
+                                                    "lineno": "18",
+                                                    "node": {
+                                                        "lineno": "18",
+                                                        "node": {
+                                                            "lineno": "18",
+                                                            "name": "$this"
+                                                        },
+                                                        "name": "_sTableFiles"
+                                                    },
+                                                    "expr": "`sys_transcoder_videos_files`",
+                                                    "is_ref": "False"
+                                                }
+                                            },
+                                            {
+                                                "id": 23,
+                                                "type": "Assignment",
+                                                "attributes": {
+                                                    "lineno": "19",
+                                                    "node": {
+                                                        "lineno": "19",
+                                                        "node": {
+                                                            "lineno": "19",
+                                                            "name": "$this"
+                                                        },
+                                                        "name": "_sHandlerPrefix"
+                                                    },
+                                                    "expr": "sys_video_transcoder_",
+                                                    "is_ref": "False"
+                                                }
+                                            }
+                                        ],
+                                        "is_ref": "False"
+                                    }
+                                }
+                            ],
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                        }
+                    }
+                ],
+                "file_location": "/workspaces/una/inc/classes",
+                "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                "file_name": "BxDolTranscoderVideoQuery.php",
+                "nearest_ns_parent": "None"
+            },
+            "op": "or",
+            "right": {
+                "lineno": "1",
+                "expr": "hack attempt",
+                "type": "die"
+            }
+        }
+    },
+    {
+        "id": 24,
+        "type": "Class",
+        "attributes": {
+            "accept": {},
+            "extends": "BxDolTranscoderQuery",
+            "fields": [
+                "name",
+                "type",
+                "extends",
+                "implements",
+                "traits",
+                "nodes"
+            ],
+            "generic": {},
+            "implements": [],
+            "lineno": "13",
+            "name": "BxDolTranscoderVideoQuery",
+            "nearest_ns_parent": {
+                "nodes": [
+                    {
+                        "id": 25,
+                        "type": "BinaryOp",
+                        "attributes": {
+                            "lineno": "1",
+                            "op": "or",
+                            "left": {
+                                "lineno": "1",
+                                "name": "defined",
+                                "params": [
+                                    {
+                                        "id": 26,
+                                        "type": "Parameter",
+                                        "attributes": {
+                                            "lineno": "0",
+                                            "node": "BX_DOL",
+                                            "is_ref": "False"
+                                        }
+                                    }
+                                ],
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            },
+                            "right": {
+                                "lineno": "1",
+                                "expr": "hack attempt",
+                                "type": "die",
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            },
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                        }
+                    },
+                    {
+                        "id": 27,
+                        "type": "Class",
+                        "attributes": {
+                            "lineno": "13",
+                            "name": "BxDolTranscoderVideoQuery",
+                            "type": "None",
+                            "extends": "BxDolTranscoderQuery",
+                            "implements": [],
+                            "traits": [],
+                            "nodes": [
+                                {
+                                    "id": 28,
+                                    "type": "Method",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "__construct",
+                                        "modifiers": [
+                                            "public"
+                                        ],
+                                        "params": [
+                                            {
+                                                "id": 29,
+                                                "type": "FormalParameter",
+                                                "attributes": {
+                                                    "lineno": "15",
+                                                    "name": "$aObject",
+                                                    "default_value": "None",
+                                                    "is_ref": "False",
+                                                    "type": "None"
+                                                }
+                                            }
+                                        ],
+                                        "nodes": [
+                                            {
+                                                "id": 30,
+                                                "type": "StaticMethodCall",
+                                                "attributes": {
+                                                    "lineno": "17",
+                                                    "class_": "parent",
+                                                    "name": "__construct",
+                                                    "params": [
+                                                        {
+                                                            "id": 31,
+                                                            "type": "Parameter",
+                                                            "attributes": {
+                                                                "lineno": "0",
+                                                                "node": {
+                                                                    "lineno": "17",
+                                                                    "name": "$aObject"
+                                                                },
+                                                                "is_ref": "False"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": 32,
+                                                            "type": "Parameter",
+                                                            "attributes": {
+                                                                "lineno": "0",
+                                                                "node": {
+                                                                    "lineno": "0",
+                                                                    "name": "true"
+                                                                },
+                                                                "is_ref": "False"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "id": 33,
+                                                "type": "Assignment",
+                                                "attributes": {
+                                                    "lineno": "18",
+                                                    "node": {
+                                                        "lineno": "18",
+                                                        "node": {
+                                                            "lineno": "18",
+                                                            "name": "$this"
+                                                        },
+                                                        "name": "_sTableFiles"
+                                                    },
+                                                    "expr": "`sys_transcoder_videos_files`",
+                                                    "is_ref": "False"
+                                                }
+                                            },
+                                            {
+                                                "id": 34,
+                                                "type": "Assignment",
+                                                "attributes": {
+                                                    "lineno": "19",
+                                                    "node": {
+                                                        "lineno": "19",
+                                                        "node": {
+                                                            "lineno": "19",
+                                                            "name": "$this"
+                                                        },
+                                                        "name": "_sHandlerPrefix"
+                                                    },
+                                                    "expr": "sys_video_transcoder_",
+                                                    "is_ref": "False"
+                                                }
+                                            }
+                                        ],
+                                        "is_ref": "False"
+                                    }
+                                }
+                            ],
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                        }
+                    }
+                ],
+                "file_location": "/workspaces/una/inc/classes",
+                "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                "file_name": "BxDolTranscoderVideoQuery.php",
+                "nearest_ns_parent": "None"
+            },
+            "nodes": [
+                {
+                    "id": 35,
+                    "type": "Method",
+                    "attributes": {
+                        "lineno": "15",
+                        "name": "__construct",
+                        "modifiers": [
+                            "public"
+                        ],
+                        "params": [
+                            {
+                                "id": 36,
+                                "type": "FormalParameter",
+                                "attributes": {
+                                    "lineno": "15",
+                                    "name": "$aObject",
+                                    "default_value": "None",
+                                    "is_ref": "False",
+                                    "type": "None"
+                                }
+                            }
+                        ],
+                        "nodes": [
+                            {
+                                "id": 37,
+                                "type": "StaticMethodCall",
+                                "attributes": {
+                                    "lineno": "17",
+                                    "class_": "parent",
+                                    "name": "__construct",
+                                    "params": [
+                                        {
+                                            "id": 38,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": {
+                                                    "lineno": "17",
+                                                    "name": "$aObject"
+                                                },
+                                                "is_ref": "False"
+                                            }
+                                        },
+                                        {
+                                            "id": 39,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": {
+                                                    "lineno": "0",
+                                                    "name": "true"
+                                                },
+                                                "is_ref": "False"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "id": 40,
+                                "type": "Assignment",
+                                "attributes": {
+                                    "lineno": "18",
+                                    "node": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "name": "$this"
+                                        },
+                                        "name": "_sTableFiles"
+                                    },
+                                    "expr": "`sys_transcoder_videos_files`",
+                                    "is_ref": "False"
+                                }
+                            },
+                            {
+                                "id": 41,
+                                "type": "Assignment",
+                                "attributes": {
+                                    "lineno": "19",
+                                    "node": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "name": "$this"
+                                        },
+                                        "name": "_sHandlerPrefix"
+                                    },
+                                    "expr": "sys_video_transcoder_",
+                                    "is_ref": "False"
+                                }
+                            }
+                        ],
+                        "is_ref": "False"
+                    }
+                }
+            ],
+            "traits": [],
+            "type": "None"
+        }
+    },
+    {
+        "id": 42,
+        "type": "FunctionCall",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "name",
+                "params"
+            ],
+            "generic": {},
+            "lineno": "1",
+            "name": "defined",
+            "nearest_ns_parent": {
+                "nodes": [
+                    {
+                        "id": 43,
+                        "type": "BinaryOp",
+                        "attributes": {
+                            "lineno": "1",
+                            "op": "or",
+                            "left": {
+                                "lineno": "1",
+                                "name": "defined",
+                                "params": [
+                                    {
+                                        "id": 44,
+                                        "type": "Parameter",
+                                        "attributes": {
+                                            "lineno": "0",
+                                            "node": "BX_DOL",
+                                            "is_ref": "False"
+                                        }
+                                    }
+                                ],
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            },
+                            "right": {
+                                "lineno": "1",
+                                "expr": "hack attempt",
+                                "type": "die",
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            },
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                        }
+                    },
+                    {
+                        "id": 45,
+                        "type": "Class",
+                        "attributes": {
+                            "lineno": "13",
+                            "name": "BxDolTranscoderVideoQuery",
+                            "type": "None",
+                            "extends": "BxDolTranscoderQuery",
+                            "implements": [],
+                            "traits": [],
+                            "nodes": [
+                                {
+                                    "id": 46,
+                                    "type": "Method",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "__construct",
+                                        "modifiers": [
+                                            "public"
+                                        ],
+                                        "params": [
+                                            {
+                                                "id": 47,
+                                                "type": "FormalParameter",
+                                                "attributes": {
+                                                    "lineno": "15",
+                                                    "name": "$aObject",
+                                                    "default_value": "None",
+                                                    "is_ref": "False",
+                                                    "type": "None"
+                                                }
+                                            }
+                                        ],
+                                        "nodes": [
+                                            {
+                                                "id": 48,
+                                                "type": "StaticMethodCall",
+                                                "attributes": {
+                                                    "lineno": "17",
+                                                    "class_": "parent",
+                                                    "name": "__construct",
+                                                    "params": [
+                                                        {
+                                                            "id": 49,
+                                                            "type": "Parameter",
+                                                            "attributes": {
+                                                                "lineno": "0",
+                                                                "node": {
+                                                                    "lineno": "17",
+                                                                    "name": "$aObject"
+                                                                },
+                                                                "is_ref": "False"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": 50,
+                                                            "type": "Parameter",
+                                                            "attributes": {
+                                                                "lineno": "0",
+                                                                "node": {
+                                                                    "lineno": "0",
+                                                                    "name": "true"
+                                                                },
+                                                                "is_ref": "False"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "id": 51,
+                                                "type": "Assignment",
+                                                "attributes": {
+                                                    "lineno": "18",
+                                                    "node": {
+                                                        "lineno": "18",
+                                                        "node": {
+                                                            "lineno": "18",
+                                                            "name": "$this"
+                                                        },
+                                                        "name": "_sTableFiles"
+                                                    },
+                                                    "expr": "`sys_transcoder_videos_files`",
+                                                    "is_ref": "False"
+                                                }
+                                            },
+                                            {
+                                                "id": 52,
+                                                "type": "Assignment",
+                                                "attributes": {
+                                                    "lineno": "19",
+                                                    "node": {
+                                                        "lineno": "19",
+                                                        "node": {
+                                                            "lineno": "19",
+                                                            "name": "$this"
+                                                        },
+                                                        "name": "_sHandlerPrefix"
+                                                    },
+                                                    "expr": "sys_video_transcoder_",
+                                                    "is_ref": "False"
+                                                }
+                                            }
+                                        ],
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                        }
+                    }
+                ],
+                "file_location": "/workspaces/una/inc/classes",
+                "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                "file_name": "BxDolTranscoderVideoQuery.php",
+                "nearest_ns_parent": "None"
+            },
+            "params": [
+                {
+                    "id": 53,
+                    "type": "Parameter",
+                    "attributes": {
+                        "lineno": "0",
+                        "node": "BX_DOL",
+                        "is_ref": "False"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 54,
+        "type": "Exit",
+        "attributes": {
+            "accept": {},
+            "expr": "hack attempt",
+            "fields": [
+                "expr",
+                "type"
+            ],
+            "generic": {},
+            "lineno": "1",
+            "nearest_ns_parent": {
+                "nodes": [
+                    {
+                        "id": 55,
+                        "type": "BinaryOp",
+                        "attributes": {
+                            "lineno": "1",
+                            "op": "or",
+                            "left": {
+                                "lineno": "1",
+                                "name": "defined",
+                                "params": [
+                                    {
+                                        "id": 56,
+                                        "type": "Parameter",
+                                        "attributes": {
+                                            "lineno": "0",
+                                            "node": "BX_DOL",
+                                            "is_ref": "False",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                        }
+                                    }
+                                ],
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            },
+                            "right": {
+                                "lineno": "1",
+                                "expr": "hack attempt",
+                                "type": "die",
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            },
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                        }
+                    },
+                    {
+                        "id": 57,
+                        "type": "Class",
+                        "attributes": {
+                            "lineno": "13",
+                            "name": "BxDolTranscoderVideoQuery",
+                            "type": "None",
+                            "extends": "BxDolTranscoderQuery",
+                            "implements": [],
+                            "traits": [],
+                            "nodes": [
+                                {
+                                    "id": 58,
+                                    "type": "Method",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "__construct",
+                                        "modifiers": [
+                                            "public"
+                                        ],
+                                        "params": [
+                                            {
+                                                "id": 59,
+                                                "type": "FormalParameter",
+                                                "attributes": {
+                                                    "lineno": "15",
+                                                    "name": "$aObject",
+                                                    "default_value": "None",
+                                                    "is_ref": "False",
+                                                    "type": "None"
+                                                }
+                                            }
+                                        ],
+                                        "nodes": [
+                                            {
+                                                "id": 60,
+                                                "type": "StaticMethodCall",
+                                                "attributes": {
+                                                    "lineno": "17",
+                                                    "class_": "parent",
+                                                    "name": "__construct",
+                                                    "params": [
+                                                        {
+                                                            "id": 61,
+                                                            "type": "Parameter",
+                                                            "attributes": {
+                                                                "lineno": "0",
+                                                                "node": {
+                                                                    "lineno": "17",
+                                                                    "name": "$aObject"
+                                                                },
+                                                                "is_ref": "False"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": 62,
+                                                            "type": "Parameter",
+                                                            "attributes": {
+                                                                "lineno": "0",
+                                                                "node": {
+                                                                    "lineno": "0",
+                                                                    "name": "true"
+                                                                },
+                                                                "is_ref": "False"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "id": 63,
+                                                "type": "Assignment",
+                                                "attributes": {
+                                                    "lineno": "18",
+                                                    "node": {
+                                                        "lineno": "18",
+                                                        "node": {
+                                                            "lineno": "18",
+                                                            "name": "$this"
+                                                        },
+                                                        "name": "_sTableFiles"
+                                                    },
+                                                    "expr": "`sys_transcoder_videos_files`",
+                                                    "is_ref": "False"
+                                                }
+                                            },
+                                            {
+                                                "id": 64,
+                                                "type": "Assignment",
+                                                "attributes": {
+                                                    "lineno": "19",
+                                                    "node": {
+                                                        "lineno": "19",
+                                                        "node": {
+                                                            "lineno": "19",
+                                                            "name": "$this"
+                                                        },
+                                                        "name": "_sHandlerPrefix"
+                                                    },
+                                                    "expr": "sys_video_transcoder_",
+                                                    "is_ref": "False"
+                                                }
+                                            }
+                                        ],
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                        }
+                    }
+                ],
+                "file_location": "/workspaces/una/inc/classes",
+                "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                "file_name": "BxDolTranscoderVideoQuery.php",
+                "nearest_ns_parent": "None"
+            },
+            "type": "die"
+        }
+    },
+    {
+        "id": 65,
+        "type": "Method",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "name",
+                "modifiers",
+                "params",
+                "nodes",
+                "is_ref"
+            ],
+            "generic": {},
+            "is_ref": "False",
+            "lineno": "15",
+            "modifiers": [
+                "public"
+            ],
+            "name": "__construct",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 66,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 67,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 68,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 69,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject"
+                                                    },
+                                                    "is_ref": "False"
+                                                }
+                                            },
+                                            {
+                                                "id": 70,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true"
+                                                    },
+                                                    "is_ref": "False"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": 71,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sTableFiles"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False"
+                                    }
+                                },
+                                {
+                                    "id": 72,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sHandlerPrefix"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 73,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 74,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 75,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            },
+            "nodes": [
+                {
+                    "id": 76,
+                    "type": "StaticMethodCall",
+                    "attributes": {
+                        "lineno": "17",
+                        "class_": "parent",
+                        "name": "__construct",
+                        "params": [
+                            {
+                                "id": 77,
+                                "type": "Parameter",
+                                "attributes": {
+                                    "lineno": "0",
+                                    "node": {
+                                        "lineno": "17",
+                                        "name": "$aObject"
+                                    },
+                                    "is_ref": "False"
+                                }
+                            },
+                            {
+                                "id": 78,
+                                "type": "Parameter",
+                                "attributes": {
+                                    "lineno": "0",
+                                    "node": {
+                                        "lineno": "0",
+                                        "name": "true"
+                                    },
+                                    "is_ref": "False"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": 79,
+                    "type": "Assignment",
+                    "attributes": {
+                        "lineno": "18",
+                        "node": {
+                            "lineno": "18",
+                            "node": {
+                                "lineno": "18",
+                                "name": "$this"
+                            },
+                            "name": "_sTableFiles"
+                        },
+                        "expr": "`sys_transcoder_videos_files`",
+                        "is_ref": "False"
+                    }
+                },
+                {
+                    "id": 80,
+                    "type": "Assignment",
+                    "attributes": {
+                        "lineno": "19",
+                        "node": {
+                            "lineno": "19",
+                            "node": {
+                                "lineno": "19",
+                                "name": "$this"
+                            },
+                            "name": "_sHandlerPrefix"
+                        },
+                        "expr": "sys_video_transcoder_",
+                        "is_ref": "False"
+                    }
+                }
+            ],
+            "params": [
+                {
+                    "id": 81,
+                    "type": "FormalParameter",
+                    "attributes": {
+                        "lineno": "15",
+                        "name": "$aObject",
+                        "default_value": "None",
+                        "is_ref": "False",
+                        "type": "None"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 82,
+        "type": "Parameter",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "node",
+                "is_ref"
+            ],
+            "generic": {},
+            "is_ref": "False",
+            "lineno": "0",
+            "nearest_ns_parent": {
+                "nodes": [
+                    {
+                        "id": 83,
+                        "type": "BinaryOp",
+                        "attributes": {
+                            "lineno": "1",
+                            "op": "or",
+                            "left": {
+                                "lineno": "1",
+                                "name": "defined",
+                                "params": [
+                                    {
+                                        "id": 84,
+                                        "type": "Parameter",
+                                        "attributes": {
+                                            "lineno": "0",
+                                            "node": "BX_DOL",
+                                            "is_ref": "False",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                        }
+                                    }
+                                ],
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            },
+                            "right": {
+                                "lineno": "1",
+                                "expr": "hack attempt",
+                                "type": "die",
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            },
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                        }
+                    },
+                    {
+                        "id": 85,
+                        "type": "Class",
+                        "attributes": {
+                            "lineno": "13",
+                            "name": "BxDolTranscoderVideoQuery",
+                            "type": "None",
+                            "extends": "BxDolTranscoderQuery",
+                            "implements": [],
+                            "traits": [],
+                            "nodes": [
+                                {
+                                    "id": 86,
+                                    "type": "Method",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "__construct",
+                                        "modifiers": [
+                                            "public"
+                                        ],
+                                        "params": [
+                                            {
+                                                "id": 87,
+                                                "type": "FormalParameter",
+                                                "attributes": {
+                                                    "lineno": "15",
+                                                    "name": "$aObject",
+                                                    "default_value": "None",
+                                                    "is_ref": "False",
+                                                    "type": "None",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "nodes": [
+                                            {
+                                                "id": 88,
+                                                "type": "StaticMethodCall",
+                                                "attributes": {
+                                                    "lineno": "17",
+                                                    "class_": "parent",
+                                                    "name": "__construct",
+                                                    "params": [
+                                                        {
+                                                            "id": 89,
+                                                            "type": "Parameter",
+                                                            "attributes": {
+                                                                "lineno": "0",
+                                                                "node": {
+                                                                    "lineno": "17",
+                                                                    "name": "$aObject"
+                                                                },
+                                                                "is_ref": "False"
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": 90,
+                                                            "type": "Parameter",
+                                                            "attributes": {
+                                                                "lineno": "0",
+                                                                "node": {
+                                                                    "lineno": "0",
+                                                                    "name": "true"
+                                                                },
+                                                                "is_ref": "False"
+                                                            }
+                                                        }
+                                                    ],
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 91,
+                                                "type": "Assignment",
+                                                "attributes": {
+                                                    "lineno": "18",
+                                                    "node": {
+                                                        "lineno": "18",
+                                                        "node": {
+                                                            "lineno": "18",
+                                                            "name": "$this"
+                                                        },
+                                                        "name": "_sTableFiles"
+                                                    },
+                                                    "expr": "`sys_transcoder_videos_files`",
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 92,
+                                                "type": "Assignment",
+                                                "attributes": {
+                                                    "lineno": "19",
+                                                    "node": {
+                                                        "lineno": "19",
+                                                        "node": {
+                                                            "lineno": "19",
+                                                            "name": "$this"
+                                                        },
+                                                        "name": "_sHandlerPrefix"
+                                                    },
+                                                    "expr": "sys_video_transcoder_",
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                        }
+                    }
+                ],
+                "file_location": "/workspaces/una/inc/classes",
+                "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                "file_name": "BxDolTranscoderVideoQuery.php",
+                "nearest_ns_parent": "None"
+            },
+            "node": "BX_DOL"
+        }
+    },
+    {
+        "id": 93,
+        "type": "FormalParameter",
+        "attributes": {
+            "accept": {},
+            "default": "None",
+            "fields": [
+                "name",
+                "default",
+                "is_ref",
+                "type"
+            ],
+            "generic": {},
+            "is_ref": "False",
+            "lineno": "15",
+            "name": "$aObject",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 94,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 95,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 96,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 97,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject"
+                                                    },
+                                                    "is_ref": "False"
+                                                }
+                                            },
+                                            {
+                                                "id": 98,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true"
+                                                    },
+                                                    "is_ref": "False"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 99,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sTableFiles"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 100,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sHandlerPrefix"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 101,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 102,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 103,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            },
+            "type": "None"
+        }
+    },
+    {
+        "id": 104,
+        "type": "StaticMethodCall",
+        "attributes": {
+            "accept": {},
+            "class_": "parent",
+            "fields": [
+                "class_",
+                "name",
+                "params"
+            ],
+            "generic": {},
+            "lineno": "17",
+            "name": "__construct",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 105,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 106,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 107,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 108,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject"
+                                                    },
+                                                    "is_ref": "False"
+                                                }
+                                            },
+                                            {
+                                                "id": 109,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true"
+                                                    },
+                                                    "is_ref": "False"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 110,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sTableFiles"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 111,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sHandlerPrefix"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 112,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 113,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 114,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            },
+            "params": [
+                {
+                    "id": 115,
+                    "type": "Parameter",
+                    "attributes": {
+                        "lineno": "0",
+                        "node": {
+                            "lineno": "17",
+                            "name": "$aObject"
+                        },
+                        "is_ref": "False"
+                    }
+                },
+                {
+                    "id": 116,
+                    "type": "Parameter",
+                    "attributes": {
+                        "lineno": "0",
+                        "node": {
+                            "lineno": "0",
+                            "name": "true"
+                        },
+                        "is_ref": "False"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 117,
+        "type": "Assignment",
+        "attributes": {
+            "accept": {},
+            "expr": "`sys_transcoder_videos_files`",
+            "fields": [
+                "node",
+                "expr",
+                "is_ref"
+            ],
+            "generic": {},
+            "is_ref": "False",
+            "lineno": "18",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 118,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 119,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 120,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 121,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 122,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 123,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sTableFiles"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 124,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sHandlerPrefix"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 125,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 126,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 127,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            },
+            "node": {
+                "lineno": "18",
+                "node": {
+                    "lineno": "18",
+                    "name": "$this"
+                },
+                "name": "_sTableFiles"
+            }
+        }
+    },
+    {
+        "id": 128,
+        "type": "Assignment",
+        "attributes": {
+            "accept": {},
+            "expr": "sys_video_transcoder_",
+            "fields": [
+                "node",
+                "expr",
+                "is_ref"
+            ],
+            "generic": {},
+            "is_ref": "False",
+            "lineno": "19",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 129,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 130,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 131,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 132,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 133,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 134,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sTableFiles",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 135,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sHandlerPrefix"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 136,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 137,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 138,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            },
+            "node": {
+                "lineno": "19",
+                "node": {
+                    "lineno": "19",
+                    "name": "$this"
+                },
+                "name": "_sHandlerPrefix"
+            }
+        }
+    },
+    {
+        "id": 139,
+        "type": "Parameter",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "node",
+                "is_ref"
+            ],
+            "generic": {},
+            "is_ref": "False",
+            "lineno": "0",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 140,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 141,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 142,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 143,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 144,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 145,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sTableFiles",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 146,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sHandlerPrefix",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 147,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 148,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 149,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            },
+            "node": {
+                "lineno": "17",
+                "name": "$aObject"
+            }
+        }
+    },
+    {
+        "id": 150,
+        "type": "Parameter",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "node",
+                "is_ref"
+            ],
+            "generic": {},
+            "is_ref": "False",
+            "lineno": "0",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 151,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 152,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 153,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 154,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 155,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 156,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sTableFiles",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 157,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sHandlerPrefix",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 158,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 159,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 160,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            },
+            "node": {
+                "lineno": "0",
+                "name": "true"
+            }
+        }
+    },
+    {
+        "id": 161,
+        "type": "ObjectProperty",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "node",
+                "name"
+            ],
+            "generic": {},
+            "lineno": "18",
+            "name": "_sTableFiles",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 162,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 163,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 164,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 165,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 166,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 167,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sTableFiles",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 168,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sHandlerPrefix",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 169,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 170,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 171,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            },
+            "node": {
+                "lineno": "18",
+                "name": "$this"
+            }
+        }
+    },
+    {
+        "id": 172,
+        "type": "ObjectProperty",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "node",
+                "name"
+            ],
+            "generic": {},
+            "lineno": "19",
+            "name": "_sHandlerPrefix",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 173,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 174,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 175,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 176,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 177,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 178,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                            },
+                                            "name": "_sTableFiles",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 179,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this"
+                                            },
+                                            "name": "_sHandlerPrefix",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 180,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 181,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 182,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            },
+            "node": {
+                "lineno": "19",
+                "name": "$this"
+            }
+        }
+    },
+    {
+        "id": 183,
+        "type": "Variable",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "name"
+            ],
+            "generic": {},
+            "lineno": "17",
+            "name": "$aObject",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 184,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 185,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 186,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 187,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 188,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 189,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                            },
+                                            "name": "_sTableFiles",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 190,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                            },
+                                            "name": "_sHandlerPrefix",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 191,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 192,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 193,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            }
+        }
+    },
+    {
+        "id": 194,
+        "type": "Constant",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "name"
+            ],
+            "generic": {},
+            "lineno": "0",
+            "name": "true",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 195,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 196,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 197,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 198,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 199,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 200,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                            },
+                                            "name": "_sTableFiles",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 201,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                            },
+                                            "name": "_sHandlerPrefix",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 202,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 203,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 204,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            }
+        }
+    },
+    {
+        "id": 205,
+        "type": "Variable",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "name"
+            ],
+            "generic": {},
+            "lineno": "18",
+            "name": "$this",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 206,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 207,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 208,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 209,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 210,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 211,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                            },
+                                            "name": "_sTableFiles",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 212,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                            },
+                                            "name": "_sHandlerPrefix",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 213,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 214,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 215,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            }
+        }
+    },
+    {
+        "id": 216,
+        "type": "Variable",
+        "attributes": {
+            "accept": {},
+            "fields": [
+                "name"
+            ],
+            "generic": {},
+            "lineno": "19",
+            "name": "$this",
+            "nearest_ns_parent": {
+                "lineno": "13",
+                "name": "BxDolTranscoderVideoQuery",
+                "type": "None",
+                "extends": "BxDolTranscoderQuery",
+                "implements": [],
+                "traits": [],
+                "nodes": [
+                    {
+                        "id": 217,
+                        "type": "Method",
+                        "attributes": {
+                            "lineno": "15",
+                            "name": "__construct",
+                            "modifiers": [
+                                "public"
+                            ],
+                            "params": [
+                                {
+                                    "id": 218,
+                                    "type": "FormalParameter",
+                                    "attributes": {
+                                        "lineno": "15",
+                                        "name": "$aObject",
+                                        "default_value": "None",
+                                        "is_ref": "False",
+                                        "type": "None",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "nodes": [
+                                {
+                                    "id": 219,
+                                    "type": "StaticMethodCall",
+                                    "attributes": {
+                                        "lineno": "17",
+                                        "class_": "parent",
+                                        "name": "__construct",
+                                        "params": [
+                                            {
+                                                "id": 220,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "17",
+                                                        "name": "$aObject",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            },
+                                            {
+                                                "id": 221,
+                                                "type": "Parameter",
+                                                "attributes": {
+                                                    "lineno": "0",
+                                                    "node": {
+                                                        "lineno": "0",
+                                                        "name": "true",
+                                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                    },
+                                                    "is_ref": "False",
+                                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                                }
+                                            }
+                                        ],
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 222,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "18",
+                                        "node": {
+                                            "lineno": "18",
+                                            "node": {
+                                                "lineno": "18",
+                                                "name": "$this",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                            },
+                                            "name": "_sTableFiles",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "`sys_transcoder_videos_files`",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                },
+                                {
+                                    "id": 223,
+                                    "type": "Assignment",
+                                    "attributes": {
+                                        "lineno": "19",
+                                        "node": {
+                                            "lineno": "19",
+                                            "node": {
+                                                "lineno": "19",
+                                                "name": "$this",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                            },
+                                            "name": "_sHandlerPrefix",
+                                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                        },
+                                        "expr": "sys_video_transcoder_",
+                                        "is_ref": "False",
+                                        "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                                    }
+                                }
+                            ],
+                            "is_ref": "False",
+                            "nearest_ns_parent": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    }
+                ],
+                "nearest_ns_parent": {
+                    "nodes": [
+                        {
+                            "id": 224,
+                            "type": "BinaryOp",
+                            "attributes": {
+                                "lineno": "1",
+                                "op": "or",
+                                "left": {
+                                    "lineno": "1",
+                                    "name": "defined",
+                                    "params": [
+                                        {
+                                            "id": 225,
+                                            "type": "Parameter",
+                                            "attributes": {
+                                                "lineno": "0",
+                                                "node": "BX_DOL",
+                                                "is_ref": "False",
+                                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                            }
+                                        }
+                                    ],
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "right": {
+                                    "lineno": "1",
+                                    "expr": "hack attempt",
+                                    "type": "die",
+                                    "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                                },
+                                "nearest_ns_parent": "<Refer\u00eancia recursiva a SyntaxTree>"
+                            }
+                        },
+                        {
+                            "id": 226,
+                            "type": "Class",
+                            "attributes": "<Refer\u00eancia recursiva a Class>"
+                        }
+                    ],
+                    "file_location": "/workspaces/una/inc/classes",
+                    "file_path": "/workspaces/una/inc/classes/BxDolTranscoderVideoQuery.php",
+                    "file_name": "BxDolTranscoderVideoQuery.php",
+                    "nearest_ns_parent": "None"
+                }
+            }
+        }
+    }
+]
